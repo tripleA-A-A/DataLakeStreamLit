@@ -11,7 +11,7 @@ def return_colours():
         my_cur.execute("select 'hello','goodbye' from catalog_for_website")
         return my_cur.fetchall()
 
-colours = return_colours()
+colours = ['gekl','goodvt']
 streamlit.text(print(colours))
 
 #fruits_selected = streamlit.multiselect("Pick a sweatsuit colour or style:", colours)
