@@ -1,9 +1,9 @@
-import pandas
+import streamlit
 import snowflake.connector
 
 streamlit.header("Zenas Amazing Atheleisure Catalog")
 
-
+'''
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 
 def return_colours():
@@ -15,3 +15,5 @@ colours = return_colours()
 streamlit.text(type(colours))
 
 #fruits_selected = streamlit.multiselect("Pick a sweatsuit colour or style:", list(my_fruit_list.index),["Avocado","Strawberries"])
+
+'''
