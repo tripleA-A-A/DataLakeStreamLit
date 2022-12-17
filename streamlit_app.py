@@ -12,7 +12,7 @@ def return_colours():
         return my_cur.fetchall()
 
 colours = return_colours()
-print(colours)
+streamlit.text(print(colours))
 
 #fruits_selected = streamlit.multiselect("Pick a sweatsuit colour or style:", colours)
 
