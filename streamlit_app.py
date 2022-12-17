@@ -12,7 +12,8 @@ def return_colours():
         return my_cur.fetchall()
 
 colours = ['gekl','goodvt']
-streamlit.dataframe(print(colours))
+streamlit.dataframe(colours)
+
 
 #fruits_selected = streamlit.multiselect("Pick a sweatsuit colour or style:", colours)
 
