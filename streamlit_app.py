@@ -12,7 +12,6 @@ def return_colours():
         return my_cur.fetchall()
 
 colours = return_colours()
-streamlit.text(type(colours))
 
-#fruits_selected = streamlit.multiselect("Pick a sweatsuit colour or style:", list(my_fruit_list.index),["Avocado","Strawberries"])
+fruits_selected = streamlit.multiselect("Pick a sweatsuit colour or style:", list(colours.index),["Avocado","Strawberries"])
 
