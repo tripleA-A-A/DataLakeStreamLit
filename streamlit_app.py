@@ -15,5 +15,5 @@ colours = return_colours()
 streamlit.dataframe(colours)
 
 
-#fruits_selected = streamlit.multiselect("Pick a sweatsuit colour or style:", colours)
+fruits_selected = streamlit.multiselect('Pick a sweatsuit colour or style:', colours)
 
