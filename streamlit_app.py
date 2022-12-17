@@ -13,5 +13,5 @@ def return_colours():
 
 colours = return_colours()
 
-fruits_selected = streamlit.multiselect("Pick a sweatsuit colour or style:", colours),["Avocado","Strawberries"])
+fruits_selected = streamlit.multiselect("Pick a sweatsuit colour or style:", colours,["Avocado","Strawberries"])
 
